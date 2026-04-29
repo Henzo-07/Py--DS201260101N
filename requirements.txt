@@ -1,4 +1,4 @@
-pandas as pd
+pandas 
 joblib 
-streamlit as st
-numpy as np 
+streamlit 
+numpy
