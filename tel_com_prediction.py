@@ -5,14 +5,14 @@ import numpy as np
 import joblib as jb 
 
 # Set App configuration.
-st.set_page_config(page_title="Tel-communication", layout="wide", initial_sidebar_state= "auto", page_icon=r"C:\Users\Neptune\Downloads\chat.png")
+st.set_page_config(page_title="Tel-communication", layout="wide", initial_sidebar_state= "auto", page_icon="chat.png")
 
 # Head title
 st.markdown("-" * 50)
 st.title("Welcome to Tel-communication Prediction")
 st.markdown("This Project enable user to select various factors that can infulence the decision of a customer to churn or not to.")
 st.subheader("Kindly click the icon on your left to start now!!.")
-st.image(r"C:\Users\Neptune\Downloads\Gente.jfif", width= 250 )
+st.image("Gente.jfif", width= 250 )
 st.markdown("-" * 50)
 
 # To Deploy the model into the app.
